@@ -1,0 +1,23 @@
+#es 的 ip
+eshostname: "10.178.192.166"
+#EsHosts: 10.10.13.111:9200,10.10.13.112:9200,10.10.13.113:9200
+EsHosts: 10.178.192.174:9200,10.178.192.173:9200,10.178.192.172:9200,10.178.192.171:9200,10.178.192.170:9200,10.178.192.169:9200,10.178.192.168:9200,10.178.192.167:9200,10.178.192.166:9200
+#es 的 端口
+esport: 9200
+#es 的 index
+esindex: "mengyin"
+#es 的 类型
+estype: "_doc"
+#本地文件夹
+inputAllDir: "E:\\3dtiles\\DigitalCountry"
+#hdfs的ip+端口  hdfs配置使用
+HDFS_HOSTS: "hdfs:10.178.192.175:9870"
+#涉及到es的索引
+esHDFS_PATH: "10.178.192.175:14000"
+#es的ip+端口
+esIpAndPort: "10.178.192.166:9200"
+#hdfs_b3dm_dir
+hdfsDir: "/mengyin/"
+writeLocalFilePath: "E:\\3dtiles\\DigitalCountry_mengyin.txt"
+#修改:  1.esindex(es上传所建的索引)  2.inputAllDir(输入文件目录)  3.hdfsDir(hdfs存储目录)   4.writeLocalFilePath(索引构建完毕本地存放全部索引)   选修:estype(es存储类型)
+## 其他的配置均为默认配置，如提交到其他集群自行修改 ##
